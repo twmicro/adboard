@@ -43,7 +43,7 @@ int Board::getButton3()
 }
 int Board::pt_map()
 {
-	return map(analogRead(POTENCIOMETER), 0, 1023, 0, 255);
+	return map(POTENCIOMETER, 0, 1023, 0, 255);
 }
 void Board::modeOutput(int* pins)
 {
